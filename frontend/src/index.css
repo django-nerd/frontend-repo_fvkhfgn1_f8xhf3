@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-sky-950 text-sky-50 antialiased;
+}
+
+/* Smooth scrolling for anchored sections */
+html {
+  scroll-behavior: smooth;
+}
